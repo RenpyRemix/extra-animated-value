@@ -17,3 +17,18 @@ This extends that fairly limited class and allows:
 - Ability to set a duration for the full range to change and use times as proportions of that for non full changes.
 - Dynamic Text methods to easily display values taken from the class.
 - A Displayable designed to help make bar images more dynamic.
+
+
+
+### Important Reading:
+
+The overview of the system is more fully explained in [Explain ExtraAnimatedValue](explain_extra_animated_value.md)
+
+The additional image displayable is explained in [Explain ValueImage](explain_value_image.md)
+
+### Please note:
+
+The way that some parts of this approach work might not be suitable for complete beginners. As such it will likely require some knowledge of Ren'Py in order to extend it to your particular needs. 
+
+Though I have tried to explain it as simply as possible, I will not be available to help extend it unless under a paid contract.
+Basically, if you want it to do more, you are expected to know enough Ren'Py to handle that yourself (or consider paying someone)
