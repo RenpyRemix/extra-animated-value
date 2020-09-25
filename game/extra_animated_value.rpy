@@ -237,7 +237,8 @@ init -1499 python:
 
         def dynamic_text(self, st, at, **kwargs):
             value = kwargs.pop('format', "{.current_value:.0f}").format(self)
-            return Text(value, **kwargs), 0.02
+            delay = (0.1 if self.value == self.current_value else 0.02)
+            return Text(value, **kwargs), delay
 
         def periodic(self, st):
 
