@@ -28,6 +28,8 @@ The overview of the system is more fully explained in [Explain ExtraAnimatedValu
 
 The additional image displayable is explained in [Explain ValueImage](explain_value_image.md)
 
+[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=19978585)
+
 ### Please note:
 
 The way that some parts of this approach work might not be suitable for complete beginners. As such it will likely require some knowledge of Ren'Py in order to extend it to your particular needs. 
