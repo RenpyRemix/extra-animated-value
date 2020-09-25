@@ -73,8 +73,8 @@ screen extra_animated_value_screen():
                     color = "#DDE",
                     outlines = [(abs(1), "#222")],
                     bold = True,
-                    anchor = (0.5, 0.5),
-                    align = (0.5, 0.5) )
+                    xcenter = 0.5,
+                    ycenter = 0.5)
 
             frame:
 
@@ -89,8 +89,8 @@ screen extra_animated_value_screen():
                     color = "#DDE",
                     outlines = [(abs(1), "#222")],
                     bold = True,
-                    anchor = (0.5, 0.5),
-                    align = (0.5, 0.5) )
+                    xcenter = 0.5,
+                    ycenter = 0.5)
 
             fixed:
 
@@ -112,8 +112,8 @@ screen extra_animated_value_screen():
                     color = "#FFF",
                     outlines = [(abs(2), "#000")],
                     bold = True,
-                    anchor = (0.5, 0.5),
-                    align = (0.5, 0.57) )
+                    xcenter = 0.5,
+                    ycenter = 0.57)
 
 
 label extra_animated_value_example:
