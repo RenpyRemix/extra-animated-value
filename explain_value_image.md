@@ -27,9 +27,10 @@ Let's take the `Maybe`s as examples...
     thumb ValueImage(
         my_ExtraAnimatedValue_instance,
         ("images/bar/skull.png", 0.0),
-        (Null(xysize=(30,30)), 0.20),
+        (Null(xysize=(50,50)), 0.20),
         dissolve = False
         )
+    thumb_offset 25
 
 ## Maybe you even yearn for a bar that uses images that dissolve between set pairs between set percentages.
     bar value my_ExtraAnimatedValue_instance
