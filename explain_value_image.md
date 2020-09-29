@@ -48,7 +48,7 @@ First just note the first parameter is the ExtraAnimatedValue instance. This all
 
 Notice on the last one how we've only specified the images and not tuples of (image, start percent). For parameters passed like that the system calculates the percent to cover the 0.0 to 1.0 range based on how many there are. For those three images it would calculate 0.0, 0.5 and 1.0.
 
-Also see that, unlike the first two, the last one does not pass the dissolve value. This leaves it as `True (the default)` which tells the Displayable to dissolve between each image depending upon the .percent value. Thus, with `red, yellow and green` at `0.0, 0.5 and 1.0`, if the value was 0.25 the resulting image would be `red with a 50% transparent yellow on top`.
+Also see that, unlike the first two, the last one does not pass the dissolve value. This leaves it as `True (the default)` which tells the Displayable to dissolve between each image depending upon the .percent value. Thus, with `red, yellow and green` at `0.0, 0.5 and 1.0`, if the value was 0.25 the resulting image would be `red with a 50% transparent yellow on top` as it is 50% of the way from red toward yellow.
 
 
 ### Navigation:
