@@ -50,6 +50,9 @@ Notice on the last one how we've only specified the images and not tuples of (im
 
 Also see that, unlike the first two, the last one does not pass the dissolve value. This leaves it as `True (the default)` which tells the Displayable to dissolve between each image depending upon the .percent value. Thus, with `red, yellow and green` at `0.0, 0.5 and 1.0`, if the value was 0.25 the resulting image would be `red with a 50% transparent yellow on top` as it is 50% of the way from red toward yellow.
 
+When the render method of the ValueImage is called it creates a render and then swiftly blits the image or images it needs onto that. Even with one of those images having altered opacity, this is a cheap/fast operation and should be suitable for even lower spec platforms. That render method, after the initial call for first display, is only called again during frames where the bar is changing value. When the bar is just staying at one value, this Displayable goes dormant and does not keep evaluating the same image.
+
+
 
 ### Navigation:
 
