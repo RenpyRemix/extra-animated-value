@@ -1,5 +1,3 @@
-# Note to self: Check offset parameter
-
 # Extra Animated Value
 
 #### Note: All you really need are the files in [The game folder](game). Just a few sample images and a small script file. They can be dropped into a new or existing project and a label called to view an example (details in the .rpy file). 
