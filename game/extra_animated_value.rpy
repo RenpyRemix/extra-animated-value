@@ -215,7 +215,7 @@ init -1499 python:
             self.current_value = value
             self.range = range
             self.delay = delay
-            self.range_delay = range_delay
+            self.range_delay = range_delay or None
             self.old_value = old_value
             self.start_time = None
             self.warper = warper
@@ -347,6 +347,8 @@ init python:
             self.old_value = getattr(self.value_object, "percent")
 
             layers = [self.images[0][0]]
+
+            use_perc = self.old_value 
 
             for img, perc in self.images:
 
